@@ -13,14 +13,14 @@ Example:
 python graph_speed_vs_thp_reqd.py 1423.15 117 1.52 0.027 0.049 0 25000 5000 True True
 
 Variable definitions:
-    W --> Gross weight of aircraft in lbs
-    S --> Wing Planform area in sq.ft
-    C_L_max --> Maximum Lift Coefficient of the wing
-    C_D_o --> Drag coefficient at zero lift of aircraft
-    k --> the factor in C_D_i = k * C_L**2. k is calculated from (pi*e*A)**-1
-    alt_min --> minimum altitude in ft. 0 corresponds to Sea Level
-    alt_max --> maximum altitude in ft.
-    alt_interval --> interval for all altitudes of interest. 
-       Note: make sure that only 7 altitude values will be formed from these due to code limitations.
-    save_df_as_csv (optional) --> if you want to save the calculated table as csv
-    save_graph_as_png (optional) --> if you want to save plot as png
+W --> Gross weight of aircraft in lbs.
+S --> Wing Planform area in sq.ft.
+C_L_max --> Maximum Lift Coefficient of the wing.
+C_D_o --> Drag coefficient at zero lift of aircraft.
+k --> the factor in C_D_i = k * C_L**2. k is calculated from (pi*e*A)**-1.
+alt_min --> minimum altitude in ft. 0 corresponds to Sea Level.
+alt_max --> maximum altitude in ft.
+alt_interval --> interval for all altitudes of interest. 
+   Note: make sure that only 7 altitude values will be formed from these due to code limitations.
+save_df_as_csv (optional) --> if you want to save the calculated table as csv.
+save_graph_as_png (optional) --> if you want to save plot as png.
